@@ -1,0 +1,9 @@
+<template>
+  <ul class="deck" id="card-deck">
+    <template for:each={cards} for:item="card">
+      <c-card key={card.name} icon-name={card.name}></c-card>
+    </template>
+  </ul>
+
+
+</template>
